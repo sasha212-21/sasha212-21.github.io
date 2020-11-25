@@ -1,0 +1,110 @@
+body{
+background-color: #013220;
+}
+
+.styleimg1{
+position: absolute;
+top: 50px;
+left: 50px;
+width: 200px;
+height: 200px; 
+}
+
+.styleimg2{
+position: absolute;
+top: 50px;
+left: 300px;
+width: 200px;
+height: 200px;
+}
+
+.styleimg3{
+position: absolute;
+top: 300px;
+left: 50px;
+width: 200px;
+height: 200px;
+}
+
+.styleimg4{
+position: absolute;
+top: 300px;
+left: 300px;
+width: 200px;
+height: 200px;
+}
+
+.styleimg5{
+position: absolute;
+top: 550px;
+left: 50px;
+width: 200px;
+height: 200px;
+
+}
+
+.styleimg6{
+position: absolute;
+top: 550px;
+left: 300px;
+width: 200px;
+height: 200px;
+}
+
+.demo { 
+    position:relative; 
+    margin:0 auto; 
+    height: 200px;
+    width:200px;
+    display: block;
+}
+
+  .demo img { 
+    left: 0; 
+    position:absolute; 
+    top: 0; 
+}
+
+  .demo img.first {opacity:0;filter:alpha(opacity=0);}
+  .demo:hover img.second {opacity:1;filter:alpha(opacity=100);}
+  .demo:hover img.second, .demo img.second:hover {opacity:0;filter:alpha(opacity=0);}
+
+.new1:after {
+      content: "Search";
+      color: #ff0000; 
+      font-size: 90%;  
+    }
+
+.textstyle{
+width: 20px;
+height: 20px; 
+}
+
+.new2:after {
+      content: "Setings";
+      color: #ff0000; 
+      font-size: 90%;  
+    }
+
+.new3:after {
+      content: "Report";
+      color: #ff0000; 
+      font-size: 90%;  
+    }
+
+ .textstyleborder {
+    margin-top: 800px; 
+}
+
+.text:after {
+      content: "»";
+      color: #ff0000; 
+      font-size: 90%;  
+    }
+
+.text1:before {
+      content: "«";
+      color: #ff0000; 
+      font-size: 90%;  
+    }
+
